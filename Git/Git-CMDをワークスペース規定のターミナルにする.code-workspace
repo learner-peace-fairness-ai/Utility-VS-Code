@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+    "terminal.integrated.profiles.windows": {
+      "Git CMD": {
+        "path": "C:\\Program Files\\Git\\git-cmd.exe"
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+  }
+}
