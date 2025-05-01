@@ -1,3 +1,4 @@
+// ユーザー設定の　settings.json
 {
   "terminal.integrated.profiles.windows": {
     "Git CMD": {
