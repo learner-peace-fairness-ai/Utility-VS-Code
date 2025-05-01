@@ -1,0 +1,7 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "Git CMD": {
+      "path": "C:\\Program Files\\Git\\git-cmd.exe"
+    }
+  },
+}
