@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+
+  "configurations": [
+    // 引数なし
+    {
+      "name": "Python デバッガー: 現在のファイル 引数無",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal"
+    },
+    // 引数を実行時に指定
+    {
+      "name": "Python デバッガー: 現在のファイル 引数有 実行時に指定",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal",
+      "args": "${command:pickArgs}"
+    },
+    // 設定した引数で実行
+    {
+      "name": "Python デバッガー: 現在のファイル 引数有 設定済",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal",
+      // 引数を指定
+      "args": ["arg1", "arg2"]
+    }
+  ]
+}
